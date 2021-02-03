@@ -10,14 +10,18 @@ FAIL: test_replace_char (__main__.TestExercice)
 Traceback (most recent call last):
   File "test_exercice.py", line 49, in test_replace_char
     'Erreur dans le remplacement de caractère'
-AssertionError: Lists differ: ['hey jaz!', 'aaaaabz', '01234z'] != ['hey yad!', 'bbbbbb', 'a1234']
+AssertionError: Lists differ: ['hey jay!', 'aaaaabb', '01234a'] != ['hey yad!', 'bbbbbb', 'a1234']
 
 First differing element 0:
-'hey jaz!'
+'hey jay!'
 'hey yad!'
 
-- ['hey jaz!', 'aaaaabz', '01234z']
-+ ['hey yad!', 'bbbbbb', 'a1234'] : Erreur dans le remplacement de caractère
+- ['hey jay!', 'aaaaabb', '01234a']
+?       ^ ^     ^^^^^      ^    -
+
++ ['hey yad!', 'bbbbbb', 'a1234']
+?       ^ ^     ^^^^      ^
+ : Erreur dans le remplacement de caractère
 
 ----------------------------------------------------------------------
 Ran 5 tests in 0.001s
